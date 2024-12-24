@@ -62,7 +62,9 @@ print('Accuracy: ',accuracy_score(y_test, y_pred),'\n') # Accuracy of the Model
 print(f'The Classification Report of the model is : \n{classification_report(y_test,y_pred)}') # ALL report of model , inc. F1score, precision, recall, etc.
 
 ### Visualizing the results......
-
+plt.figure(figsize=(10,8),facecolor='grey)
+//
+plt.show()
 
 
 
