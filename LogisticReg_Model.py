@@ -63,7 +63,9 @@ print(f'The Classification Report of the model is : \n{classification_report(y_t
 
 ### Visualizing the results......
 plt.figure(figsize=(10,8),facecolor='grey)
-//
+plt.scatter(X_test, y_test, label='Actual Results', color='green')
+plt.plot(X_test, y_pred, label='Predicted Results', color='orange')
+plt.gca().spines[['top','right']].set_visibility(False)
 plt.show()
 
 
